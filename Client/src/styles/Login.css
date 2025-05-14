@@ -1,0 +1,110 @@
+/*  */
+.password-container-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/Users/ravikiran_mothukuri/Documents/File_Transfer/Client/src/assets/Login_Background.png");
+  background-size: cover;        
+  background-repeat: no-repeat;   
+  background-position: center;    
+  height: 100vh;                  
+  width: 100%;
+}
+
+
+/* .login-form{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 30%;
+  height: 60%;
+  border-radius: 25px;
+} */
+
+.login-form {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.signup-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.signup-text a {
+  color: #333;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.username,
+.user-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.forgot-password {
+  align-self: flex-end;
+  font-size: 0.85rem;
+  color: #0073e6;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #d3d3d3;
+  color: #333;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background-color: #15d442;
+}
+
+.gml{
+  width: 100%;
+}
+
+.pss{
+  width: 100%;
+}
