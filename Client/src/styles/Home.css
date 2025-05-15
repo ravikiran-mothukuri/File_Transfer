@@ -1,5 +1,5 @@
 .home-container{
-  background-image: url("/Users/ravikiran_mothukuri/Documents/File_Transfer/Client/src/assets/Home_Background.jpg");
+  background-image: url("../assets/Home_Background.jpg");
   background-size: cover;        
   background-repeat: no-repeat;   
   background-position: center; 
