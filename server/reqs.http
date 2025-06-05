@@ -1,0 +1,12 @@
+### Send Test Email
+POST http://localhost:5000/send-email
+Content-Type: application/json
+
+{
+  "fromEmail": "ravikiranmothukuri699@gmail.com",
+  "toEmail": "alasaiharsha@gmail.com",
+  "uploadedFiles": [
+    "https://your-project.supabase.co/storage/v1/object/public/uploads/foldername/file1.txt",
+    "https://your-project.supabase.co/storage/v1/object/public/uploads/foldername/file2.pdf"
+  ]
+}
