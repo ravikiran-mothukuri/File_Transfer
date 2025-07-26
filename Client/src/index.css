@@ -1,3 +1,36 @@
+<<<<<<< HEAD
 body{
   margin: 0;
 }
+=======
+/* Reset some basic browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.5;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, button, select {
+  font: inherit;
+}
+>>>>>>> 04fb2379da1934556ec3b85d0fe981dff5f96871
