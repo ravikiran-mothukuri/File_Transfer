@@ -3,8 +3,8 @@ import axios from "axios";
 import Logo from "../components/Logo";
 import search from "../assets/search.svg";
 import "../styles/Login.css";
-import HideIcon from "../assets/hide-icon.png";
-import ShowIcon from "../assets/show-icon.png";
+// import HideIcon from "../assets/hide-icon.png";
+// import ShowIcon from "../assets/show-icon.png";
 
 import { useNavigate } from "react-router-dom";
 
